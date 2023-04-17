@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(114, 89, 255, 0.2);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 8vh;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 0;
+    box-shadow: 0 2px 40px 15px rgb(92, 53, 131);
+}
+
+img{
+    height: 45px;   
+    width: 50px;
+    padding: 2px 2px;
+    margin: 0;
+}
+
+.cato {
+    margin: 0 20vw 0 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 15px 15px ;
+    border-radius: 5px;
+    margin: 3px 0 0 0;
+}
+
+nav ul li:hover{
+    background-color: white;
+    color: rebeccapurple;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    margin: 80px 0 0 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h1:hover {
+    font-size: 34px;
+    color: rebeccapurple
+}
+
+h2{
+    font-weight: 100;
+    font-size: 25px;
+    width: 100%;
+    padding: 3px;
+    color: goldenrod;
+}
+
+h2:hover{
+    font-size: 29px;
+    color: rebeccapurple;
+}
+
+div{
+    text-align: justify;
+    margin: 14px 10vw;
+    align-items: center;
+}
+p{
+    margin: 14px;
+    color: rebeccapurple;
+    font-size: 2vh;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: 100;
+    font-size: 1.7vh;
+    padding: 10px 15px;
+    width: 15vw;
+    margin: 0 0 0 35vw;
+    box-shadow: 8px 8px 5px rgba(180, 136, 224, 0.726)
+}
+
+button:hover{
+    background-color: rebeccapurple;
+    width: 15vw;
+}
+
+@media screen and (max-width: 650px) {
+    nav{
+        opacity: 0.9;
+    }
+    nav ul li{
+        float: none;
+        height: auto;
+    }
+}
